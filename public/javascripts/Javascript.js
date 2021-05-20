@@ -59,8 +59,6 @@ if (userGuess == RandomWord) {
     // you can only guess 5 times
     for (var i = 0; i < 4; i++) {
 
-
-
     }
 }
 
@@ -77,8 +75,6 @@ if (userGuess == RandomWord) {
     // you can only guess 5 times
     for (var i = 0; i < 4; i++) {
 
-
-
     }
 }
 
@@ -94,7 +90,6 @@ if ( testCategory3== "Color"  && testNumber3 == 4){
 if (userGuess == RandomWord) {
     // only 5 tries with single letter
     for (var i = 0; i < 4; i++) {
-
 
 
     }
