@@ -17,7 +17,16 @@
      font-family: "Cooper Black";
 
     }
-    p {
+    p  {
+        text-align: center;
+        font-size: large;
+
+        font-style:normal;
+        font-color:navy;
+        font-family: "Cooper Black";
+
+    }
+    label  {
         text-align: center;
         font-size: large;
 
@@ -68,15 +77,12 @@
     <button type="submit" name ="click">Submit</button>
 </form>
 
-
-
-
-
-    <div class="input-group input-group-lg">
-        <span class="input-group-text" id="inputGroup-sizing-lg">Input guess</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-        <button type="submit">Submit</button>
-    </div>
+<!-- BOX TEXT FOR USERGUESS -->
+<form>
+    <label for="userGuess"> Type In Your Letter Or Word Guess: </label>
+    <input type="words" id="MyGuess">
+    <input type="submit" id="userGuess" value="Check My Guess">
+</form>
 
 
 

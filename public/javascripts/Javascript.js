@@ -40,6 +40,10 @@ var Animals4 =  ["goat", "duck","fish","frog","crab","lamb","lion","mule", "deer
 var Color5 = ["green", "brown","lilac","peach","white","pearl", "olive","mocha","khaki","ivory"];
 var Color4 =["grey","aqua","blue","lime","pink","rose","teal","gold","navy","mint"];
 
+// variable for blank array
+
+var userGuessArray = [];
+
 console.log("is my java script working? yes!");
 // if user selects category color  and letter 4. then do random for Animals5
 //  ID is "flexRadioDefault2"  = 4
@@ -51,6 +55,15 @@ if ( testCategory1== "Animals"  && testNumber1 == 4){
 console.log(RandomWord);
 
 }
+if (userGuess == RandomWord) {
+    // you can only guess 5 times
+    for (var i = 0; i < 4; i++) {
+
+
+
+    }
+}
+
 
 
 // if user selects category animal and letter 4. then do random for Animals4
@@ -59,6 +72,14 @@ console.log(RandomWord);
     var RandomWord = Animals4[Math.floor(Math.random() * Animals4.length)];
         console.log(RandomWord);
 
+}
+if (userGuess == RandomWord) {
+    // you can only guess 5 times
+    for (var i = 0; i < 4; i++) {
+
+
+
+    }
 }
 
 
@@ -70,10 +91,28 @@ if ( testCategory3== "Color"  && testNumber3 == 4){
     console.log(RandomWord);
 }
 
+if (userGuess == RandomWord) {
+    // only 5 tries with single letter
+    for (var i = 0; i < 4; i++) {
+
+
+
+    }
+}
+
 //if user selects category color and letter 4. Then do random for Color4
 //else if (userCategory == "Colors" && userNumber == "flexRadioDefault1"){
 if ( testCategory4== "Color"  && testNumber4 == 5){
 
     var RandomWord = Color4[Math.floor(Math.random() * Color4.length)];
     console.log(RandomWord);
+}
+
+if (userGuess == RandomWord) {
+    // only allowed to guess 5 times
+    for (var i = 0; i < 4; i++) {
+
+
+
+    }
 }
